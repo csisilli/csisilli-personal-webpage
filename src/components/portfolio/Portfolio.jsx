@@ -16,6 +16,37 @@ export const Portfolio = () => {
         {/**/ }
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
+            <img src={IMG3} alt="Photography Portfolio project screenshot - HTML and CSS photography website"/>
+          </div>
+          <h3>Photography-Portfolio (HTML/CSS)</h3>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/csisilli/Photography-Portfolio" className='btn' target='blank' aria-label="View Photography Portfolio project on GitHub" >GitHub</a>
+          <a href="https://69cbf827116fc4149360ed25--courageous-panda-0f6435.netlify.app/" className='btn btn-primary' target='blank' aria-label="View Photography Portfolio live website" >Live Demo</a>
+          </div>
+        </article>
+        {/*End of Portfolio Project 1*/ }
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="RollCraft-Bot project screenshot - Discord bot application"/>
+          </div>
+          <h3>RollCraft-Bot</h3>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/csisilli/RollCraft-Bot" className='btn' target='blank' aria-label="View RollCraft-Bot project on GitHub" >GitHub</a>
+          </div>
+        </article>
+        {/*End of Portfolio Project 2*/ }
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="Cache-Link project screenshot"/>
+          </div>
+          <h3>Cache-Link</h3>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/csisilli/Cache-Link" className='btn' target='blank' aria-label="View Cache-Link project on GitHub" >GitHub</a>
+          </div>
+        </article>
+        {/*End of Portfolio Project 3*/ }
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
             <img src={IMG1} alt="Assembler VC-407 project screenshot - C++ assembler implementation"/>
           </div>
           <h3>Assembler VC-407 (C++)</h3>
@@ -23,28 +54,7 @@ export const Portfolio = () => {
           <a href="https://github.com/csisilli/Assembler" className='btn' target='blank' aria-label="View Assembler VC-407 project on GitHub" >GitHub</a>
           </div>
         </article>
-        {/*End of Portfolio Project 1*/ }
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="Weather API project screenshot - Kotlin and Java weather application"/>
-          </div>
-          <h3>Weather API (Kotlin Java)</h3>
-          <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' aria-label="View Weather API project on GitHub" >GitHub</a>
-          </div>
-        </article>
-        {/*End of Portfolio Project 2*/ }
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="Photography Portfolio project screenshot - HTML and CSS photography website"/>
-          </div>
-          <h3>Photography-Portfolio (HTML/CSS)</h3>
-          <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Projects" className='btn' target='blank' aria-label="View Photography Portfolio project on GitHub" >GitHub</a>
-          </div>
-        </article>
-        {/*End of Portfolio Project 3*/ }
+        {/*End of Portfolio Project 4*/ }
 
         {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -65,7 +75,6 @@ export const Portfolio = () => {
           <h3>Coin Game Website (Javacript, HTMl, and CSS)</h3>
           <div className="portfolio__items-cta">
           <a href="https://github.com/csisilli/CoinCollectorGames" className='btn' target='blank' aria-label="View Coin Game Website project on GitHub" >GitHub</a>
-          <a href="demo" className='btn btn-primary' target='blank' aria-label="Play Coin Game Website live demo" >Live Demo</a>
           </div>
         </article>
         {/*End of Portfolio Project 5*/ }
