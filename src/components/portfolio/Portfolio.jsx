@@ -20,8 +20,8 @@ export const Portfolio = () => {
           </div>
           <h3>Photography-Portfolio (HTML/CSS)</h3>
           <div className="portfolio__items-cta">
-          <a href="https://github.com/csisilli/Photography-Portfolio" className='btn' target='blank' aria-label="View Photography Portfolio project on GitHub" >GitHub</a>
-          <a href="https://69cbf827116fc4149360ed25--courageous-panda-0f6435.netlify.app/" className='btn btn-primary' target='blank' aria-label="View Photography Portfolio live website" >Live Demo</a>
+          <a href="https://github.com/csisilli/Photography-Portfolio" className='btn' target='_blank' aria-label="View Photography Portfolio project on GitHub" >GitHub</a>
+          <a href="https://courageous-panda-0f6435.netlify.app/" className='btn btn-primary' target='_blank' aria-label="View Photography Portfolio live website" >Live Demo</a>
           </div>
         </article>
         {/*End of Portfolio Project 1*/ }
