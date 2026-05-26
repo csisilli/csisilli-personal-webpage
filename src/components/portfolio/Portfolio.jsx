@@ -32,6 +32,7 @@ export const Portfolio = () => {
           <h3>RollCraft-Bot</h3>
           <div className="portfolio__items-cta">
           <a href="https://github.com/csisilli/RollCraft-Bot" className='btn' target='blank' aria-label="View RollCraft-Bot project on GitHub" >GitHub</a>
+          <a href="https://discord.com/oauth2/authorize?client_id=1460079150491635733&permissions=515396405312&integration_type=0&scope=bot" className='btn btn-primary' target='_blank' aria-label="Add RollCraft bot to Discord" >Live Demo</a>
           </div>
         </article>
         {/*End of Portfolio Project 2*/ }
